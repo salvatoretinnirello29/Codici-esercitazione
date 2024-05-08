@@ -1,0 +1,387 @@
+body {
+    background-color: #fff;
+    font-family:"Fraunces", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+
+}
+main{
+    max-width: auto;
+}
+
+header{
+    max-width: auto;
+    background-color: #038CB5;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header p {
+    color: #fff;
+    padding-left: 130px;
+    margin: 30px 0;
+    font-style: "normal";
+    text-transform: uppercase;
+    width: 381px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 79%;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+header nav a {
+    font-weight: lighter;
+    padding-right: 130px;
+    display: flex;
+    margin: auto;
+    margin: 30px 0;
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+section.info {
+    max-width: auto ;
+    background-color: rgb(255, 255, 255);
+    margin:  auto;
+    display: flex;
+}
+
+
+
+.image{
+    padding-top: 195px;
+    padding-left: 680px;
+    width: 30%;
+    display: flex;
+} 
+
+.viaggio {
+    position: absolute;
+
+}
+
+
+section.info h1 {
+    padding-top: 100px;
+    padding-left: 130px;
+    text-align: left ;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87%;
+    color: black;
+    font-weight: "light";
+    font-size: 120px;
+}
+
+section.info p {
+    padding-left: 130px;
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: -0.05em;
+    width: 381px;
+} 
+
+ section.barra nav ul {
+    background-color: #0BB7EA;
+    max-width: auto;
+    margin: 0;
+    padding: 50px;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+
+}
+ section.barra nav a {
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 10;
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+}
+section.barra nav a:hover {
+    text-decoration: underline;
+}
+
+section.testo{
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-left: 460px;
+    padding-bottom: 100px;
+}
+section.testo h3 {
+    padding-top: 50px;
+    max-width: auto;
+    font-size: 108px;
+    font-style: "normal";
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 133px;
+    display: flex;
+    align-items: center;
+}
+
+section.testo p {
+   
+    padding-top: 50px;
+    padding-right: 100px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    display: flex;
+}
+
+.card ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 32px;
+}
+
+.card a{
+    color: #000000;
+    text-decoration: none; 
+}
+
+.card a:hover{
+    color: #666;
+    text-decoration: underline;
+}
+
+section.card {
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    max-width: 1290px;
+    margin: 30px auto;
+    gap: 18px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+section.card h4{
+    margin: auto;
+    padding: auto;
+    padding-bottom: 30px;
+}
+
+section.card img{
+    height: 410px ;
+    width: 391px;
+    object-fit: cover;
+}
+
+section.card h4{
+    font-size: 30px;
+    font-style: "normal";
+    font-weight: 400;
+    line-height: 37px;
+}
+section.card img {
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 17px;
+
+
+}
+section.inizio{
+    background-color: #038CB5;
+    padding: 0 50px 0 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+.inizio h5 {
+
+color:white;
+font-style: "regular";
+font-weight: 400;
+font-size: 60px;
+line-height: 49px;
+display: flex;
+align-items: center;
+max-width: 1290px;
+padding-top: 30px;
+margin: auto;
+padding: auto;
+
+}
+.inizio p{
+    font-size: 20px;
+    font-style: "regular";
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1290px;
+    padding-top: 50px;
+    margin: auto;
+    padding: auto;
+}
+
+
+footer{
+    background-color:#033240 ;
+    padding: 20px;
+}
+
+footer nav ul{
+    font-size: 25px;
+    font-style: 'normal';
+    max-width: auto;
+    margin: 0;
+    padding: auto;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+footer nav a{
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 10;
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+}
+footer nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+section.artisti {
+    padding-left: 130px; 
+}
+
+
+section.artisti h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    max-width: auto;
+    font-size: 108px;
+    font-style: 'normal';
+    font-weight: 500;
+    font-size: 108px;
+    line-height: 133px;
+    display: flex;
+    align-items: center;
+}
+
+section.artisti p{
+    margin: auto;
+    padding: auto;
+    padding-right:461px ;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+    padding-bottom: 30px;
+
+} 
+
+.arte {
+
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    max-width: 1290px;
+    margin: 30px auto;
+    gap: 18px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
